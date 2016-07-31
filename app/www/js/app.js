@@ -3,10 +3,10 @@ angular.module('App', ['ionic'])
 .config(function ($stateProvider, $urlRouterProvider) {
   $stateProvider
    
-    .state('home', {
+    .state('About', {
       url: '/',
-      templateUrl: 'views/home/home.html',
-      controller: 'HomeCtrl'
+      templateUrl: 'views/About/About.html',
+      controller: 'AboutCtrl'
     })
    
 
