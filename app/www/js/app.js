@@ -8,6 +8,11 @@ angular.module('App', ['ionic'])
       templateUrl: 'views/About/About.html',
       controller: 'AboutCtrl'
     })
+    .state('Skills', {
+       
+        url: '/Skills',
+        templateUrl: 'views/Skills/Skills.html'
+    })
    
 
   $urlRouterProvider.otherwise('/');
