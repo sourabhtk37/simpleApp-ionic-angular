@@ -11,7 +11,17 @@ angular.module('App', ['ionic'])
     .state('Skills', {
        
         url: '/Skills',
+        abstract:true,
         templateUrl: 'views/Skills/Skills.html'
+    })
+    .state('Skills.frontend',{
+
+      url:'/frontend',
+      views: {
+        'frontend': {
+          templateUrl: 'views/Skills/frontend.html'
+        }
+      }
     })
    
 
