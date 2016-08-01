@@ -32,7 +32,15 @@ angular.module('App', ['ionic'])
         }
       }
     })
-   
+   .state('Skills.testing',{
+
+      url:'/testing',
+      views: {
+        'testing': {
+          templateUrl: 'views/Skills/testing.html'
+        }
+      }
+    })
 
   $urlRouterProvider.otherwise('/');
 })
