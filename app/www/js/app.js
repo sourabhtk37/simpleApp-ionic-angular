@@ -23,6 +23,15 @@ angular.module('App', ['ionic'])
         }
       }
     })
+    .state('Skills.backend',{
+
+      url:'/backend',
+      views: {
+        'backend': {
+          templateUrl: 'views/Skills/backend.html'
+        }
+      }
+    })
    
 
   $urlRouterProvider.otherwise('/');
