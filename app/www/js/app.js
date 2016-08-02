@@ -60,6 +60,13 @@ angular.module('App', ['ionic'])
         templateUrl:'views/education/education.html'
     })
 
+    .state('/laurels', {
+
+        url: '/laurels',
+        templateUrl:'views/Skills/laurels.html'
+
+    })
+
   $urlRouterProvider.otherwise('/');
 })
 
