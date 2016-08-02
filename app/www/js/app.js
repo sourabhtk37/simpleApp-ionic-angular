@@ -40,6 +40,12 @@ angular.module('App', ['ionic'])
           templateUrl: 'views/Skills/testing.html'
         }
       }
+   })
+    .state('social', {
+
+        url: '/social',
+        templateUrl:'views/social/social.html'
+
     })
 
   $urlRouterProvider.otherwise('/');
