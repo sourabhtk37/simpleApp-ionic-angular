@@ -2,7 +2,7 @@ angular.module('App', ['ionic'])
 
 .config(function ($stateProvider, $urlRouterProvider) {
   $stateProvider
-   
+    
     .state('About', {
       url: '/',
       templateUrl: 'views/About/About.html',
