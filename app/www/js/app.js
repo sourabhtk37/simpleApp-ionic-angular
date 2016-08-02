@@ -47,6 +47,12 @@ angular.module('App', ['ionic'])
         templateUrl:'views/social/social.html'
 
     })
+    .state('hobbies', {
+
+        url: '/hobbies',
+        templateUrl:'views/hobbies/hobbies.html'
+
+    })
 
   $urlRouterProvider.otherwise('/');
 })
