@@ -54,6 +54,12 @@ angular.module('App', ['ionic'])
 
     })
 
+    .state('eduation', {
+
+        url: '/education',
+        templateUrl:'views/education/education.html'
+    })
+
   $urlRouterProvider.otherwise('/');
 })
 
